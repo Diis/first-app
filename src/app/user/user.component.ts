@@ -1,5 +1,4 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { CardComponent } from '../shared/card/card.component';
 //interface ValgfriNavn{
 
 //id: string;
@@ -8,8 +7,7 @@ import { CardComponent } from '../shared/card/card.component';
 
 @Component({
   selector: 'app-user',
-  standalone: true,
-  imports: [CardComponent],
+  standalone: false,
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })
